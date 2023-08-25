@@ -1,13 +1,22 @@
 {
   "files": {
-    "main.css": "/react-homework-template/static/css/main.7acaea2f.css",
-    "main.js": "/react-homework-template/static/js/main.07d3183d.js",
-    "index.html": "/react-homework-template/index.html",
-    "main.7acaea2f.css.map": "/react-homework-template/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/react-homework-template/static/js/main.07d3183d.js.map"
+    "main.css": "/draft-team-project-final/static/css/main.b5320759.css",
+    "main.js": "/draft-team-project-final/static/js/main.cdb29cc8.js",
+    "static/js/517.80e3fe74.chunk.js": "/draft-team-project-final/static/js/517.80e3fe74.chunk.js",
+    "static/js/285.f5f9b5a2.chunk.js": "/draft-team-project-final/static/js/285.f5f9b5a2.chunk.js",
+    "static/js/38.2b1a8f1e.chunk.js": "/draft-team-project-final/static/js/38.2b1a8f1e.chunk.js",
+    "static/js/393.35597f0c.chunk.js": "/draft-team-project-final/static/js/393.35597f0c.chunk.js",
+    "static/media/icons.svg": "/draft-team-project-final/static/media/icons.52307dd1ec8acadec97ddd29ec20ea29.svg",
+    "index.html": "/draft-team-project-final/index.html",
+    "main.b5320759.css.map": "/draft-team-project-final/static/css/main.b5320759.css.map",
+    "main.cdb29cc8.js.map": "/draft-team-project-final/static/js/main.cdb29cc8.js.map",
+    "517.80e3fe74.chunk.js.map": "/draft-team-project-final/static/js/517.80e3fe74.chunk.js.map",
+    "285.f5f9b5a2.chunk.js.map": "/draft-team-project-final/static/js/285.f5f9b5a2.chunk.js.map",
+    "38.2b1a8f1e.chunk.js.map": "/draft-team-project-final/static/js/38.2b1a8f1e.chunk.js.map",
+    "393.35597f0c.chunk.js.map": "/draft-team-project-final/static/js/393.35597f0c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.b5320759.css",
+    "static/js/main.cdb29cc8.js"
   ]
 }
