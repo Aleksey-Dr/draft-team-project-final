@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/889.a0f8ef8f.chunk.js","mappings":"oMAAe,SAASA,IACtB,OAAOC,EAAAA,EAAAA,KAAAC,EAAAA,SAAA,GACT,C","sources":["pages/Statistics.jsx"],"sourcesContent":["export default function Statistics() {\n  return <></>;\n}"],"names":["Statistics","_jsx","_Fragment"],"sourceRoot":""}
