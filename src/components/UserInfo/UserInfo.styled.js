@@ -5,10 +5,9 @@ export const UserName = styled.h2`
 
   color: #343434;
   font-size: 14px;
-  font-style: normal;
   line-height: calc(18 / 14);
 
-    @media screen and (min-width: 376px) {
+    @media screen and (min-width: 768px) {
         margin-right: 14px;
 
         font-size: 18px;
@@ -24,7 +23,7 @@ export const UserAvatar = styled.div`
   border-radius: 50%;
   border: 2px solid #3e85f3;
 
-  @media screen and (min-width: 376px) {
+  @media screen and (min-width: 768px) {
         width: 44px;
         height: 44px;
     }

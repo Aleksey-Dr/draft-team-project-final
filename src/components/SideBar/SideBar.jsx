@@ -1,10 +1,12 @@
 import Logo from '../Logo/Logo';
-import UserNav from '../UserNav/UserNav';
+import UserNav from './UserNav/UserNav';
+import LogoutBtn from './LogoutBtn/LogoutBtn';
 import icons from '../../images/icons.svg';
 
 import {
     Container,
     Wrapper,
+    CloseIcon,
     TitleSideBar,
 } from './SideBar.styled';
 
@@ -13,14 +15,15 @@ const SideBar = () => {
         <Container>
             <Wrapper>
                 <Logo />
-                <svg width="24" height="24">
+                <CloseIcon>
                     <use href={ icons + "#icon-x-close" }></use>
-                </svg>
+                </CloseIcon>
             </Wrapper>
             <TitleSideBar>
                 User Panel
             </TitleSideBar>
             <UserNav />
+            <LogoutBtn />
         </Container>
     );
 };

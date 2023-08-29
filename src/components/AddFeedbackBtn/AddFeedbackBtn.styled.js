@@ -18,7 +18,7 @@ export const FeedbackButton = styled.button`
   font-weight: 600;
   line-height: calc(16 / 12);
 
-    @media screen and (min-width: 376px) {
+    @media screen and (min-width: 768px) {
         width: 130px;
         height: 42px;
         padding: 12px 32px;
@@ -28,5 +28,9 @@ export const FeedbackButton = styled.button`
 
         font-size: 14px;
         line-height: calc(18 / 14);
+    }
+
+    &:hover {
+        background-color: #2B78EF;
     }
 `;

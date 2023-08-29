@@ -1,16 +1,16 @@
 import icons from '../../images/icons.svg';
 
 import {
-  Wrapper,
+    Wrapper,
+    MoonIcon,
 } from './ThemeToggler.styled';
 
 const ThemeToggler = () => {
     return (
         <Wrapper>
-            {/* Add size svg-icon for breakpoint from 376px */}
-            <svg width="24" height="24">
+            <MoonIcon>
                 <use href={ icons + "#icon-moon" }></use>
-            </svg>
+            </MoonIcon>
         </Wrapper>
     );
 };

@@ -6,29 +6,30 @@ import icons from '../../images/icons.svg';
 
 import {
     Container,
+    ContainerHeader,
     Wrapper,
+    MenuIcon,
     UserTitle,
 } from './Header.styled';
 
 const Header = () => {
     return (
-        <header>
-            <Container>
+        <Container>
+            <ContainerHeader>
                 <Wrapper>
-                    {/* Add size svg-icon for breakpoint from 376px */}
-                    <svg width="24" height="24">
-                        <use href={ icons + "#icon-menu-01" }></use>
-                    </svg>
+                    <MenuIcon>
+                        <use href={icons + "#icon-menu-01"}></use>
+                    </MenuIcon>
                 </Wrapper>
-                <UserTitle>
-                    User Profile
-                </UserTitle>
-                <AddFeedbackBt />
-                <ThemeToggler />
-                <UserInfo />
-            </Container>
-        </header>
-    )
+                    <UserTitle>
+                        User Profile
+                    </UserTitle>
+                    <AddFeedbackBt />
+                    <ThemeToggler />
+                    <UserInfo />
+            </ContainerHeader>
+        </Container>
+    );
 }
 
 export default Header;
